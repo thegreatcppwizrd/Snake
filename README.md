@@ -1,8 +1,8 @@
-# 🐍 Snake Game (C++)
+# Snake Game (C++)
 
 A classic Snake game built with **C++** and **raylib**. The goal is to control the snake, eat fruit, and grow without colliding with yourself.
 
-## ✨ Features
+## Features
 
 - Classic Snake gameplay
 - Grid-based movement
@@ -14,14 +14,14 @@ A classic Snake game built with **C++** and **raylib**. The goal is to control t
 <img width="752" height="782" alt="Recording 2026-10-31 092622" src="https://github.com/user-attachments/assets/dbc69971-3c8f-47d0-a703-944fa9c75f11" />
 
 
-## 🛠️ Requirements
+## Requirements
 
 - Git
 - A C++ compiler
 - [raylib](https://www.raylib.com/)
 - [CMake](https://cmake.org/) (if the project uses CMake)
 
-## 📥 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -66,7 +66,7 @@ If you're using Visual Studio, you can also open the project folder with **File 
 
 > **Note:** These build instructions assume your project has a valid `CMakeLists.txt` and that raylib is configured correctly. The exact setup may vary.
 
-## 🎮 How to Play
+## How to Play
 
 - Control the snake using the movement keys configured in the game.
 - Eat fruit to increase your score and grow.
@@ -74,7 +74,7 @@ If you're using Visual Studio, you can also open the project folder with **File 
 
 Check the source code for the current key bindings.
 
-## 📁 Project Structure
+## Project Structure
 
 The project may be organised like this:
 
@@ -93,20 +93,20 @@ Snake/
 
 Adjust this structure to match the actual files in your repository.
 
-## 🧰 Technologies
+## Technologies
 
 - **C++** — game logic
 - **raylib** — graphics and input
 - **CMake** — build configuration, if used
 - **Git** — version control
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - High-score saving
 - Sound effects
 - Main menu
 - Difficulty settings
 
-## 📄 License
+## License
 
 No license has been specified yet.
