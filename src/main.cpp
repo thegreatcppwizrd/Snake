@@ -3,8 +3,8 @@
 
 
 const int cell_size = 50;
-const int cell_count_y = 20;
-const int cell_count_x = 20;
+const int cell_count_y = 15;
+const int cell_count_x = 15;
 
 void Draw_Cell(int cell_count_x, int cell_count_y, int cell_size)
 {
@@ -126,9 +126,9 @@ int main()
     Fruit fruit;
     fruit.Set(snake);
 
-    snake.snake.push_back({ 400, 400 });
-    snake.snake.push_back({ 550, 400 });
-    snake.snake.push_back({ 600, 400 });
+    snake.snake.push_back({ 100, 50 });
+    snake.snake.push_back({ 50, 50 });
+    snake.snake.push_back({ 0, 50 });
 
     bool retray_screen = false;
     bool menu = false;
