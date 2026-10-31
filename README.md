@@ -10,6 +10,12 @@ A classic Snake game built with **C++** and **raylib**. The goal is to control t
 - Snake growth
 - Built using C++ and raylib
 
+## How to Play
+
+- Control the snake using the arrow keys configured in the game.
+- Eat fruit to increase your score and grow.
+- Avoid colliding with your own body.
+
 
 <img width="752" height="782" alt="Recording 2026-10-31 092622" src="https://github.com/user-attachments/assets/dbc69971-3c8f-47d0-a703-944fa9c75f11" />
 
@@ -19,7 +25,7 @@ A classic Snake game built with **C++** and **raylib**. The goal is to control t
 - Git
 - A C++ compiler
 - [raylib](https://www.raylib.com/)
-- [CMake](https://cmake.org/) (if the project uses CMake)
+- [CMake](https://cmake.org/)
 
 ## Getting Started
 
@@ -28,15 +34,13 @@ A classic Snake game built with **C++** and **raylib**. The goal is to control t
 Open a terminal and run:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone [YOUR_REPOSITORY_URL](https://github.com/thegreatcppwizrd/Snake)
 ```
-
-Replace `YOUR_REPOSITORY_URL` with your GitHub repository URL.
 
 Move into the project folder:
 
 ```bash
-cd YOUR_REPOSITORY_NAME
+cd YOUR_FOLDER
 ```
 
 ### 2. Pull the latest changes
@@ -63,16 +67,6 @@ cmake --build build
 Run the resulting executable from the build output directory. Its exact location depends on your CMake configuration and compiler.
 
 If you're using Visual Studio, you can also open the project folder with **File → Open → Folder** and build it using the CMake integration.
-
-> **Note:** These build instructions assume your project has a valid `CMakeLists.txt` and that raylib is configured correctly. The exact setup may vary.
-
-## How to Play
-
-- Control the snake using the movement keys configured in the game.
-- Eat fruit to increase your score and grow.
-- Avoid colliding with your own body.
-
-Check the source code for the current key bindings.
 
 ## Project Structure
 
